@@ -154,16 +154,13 @@ pip install fastapi uvicorn requests
 ### **Executar a API**
 No terminal, rode:
 ```bash
-uvicorn main:app --reload
+uvicorn carteira:app --reload
 ```
-(onde `main` é o nome do arquivo Python que contém o código.)
+(onde `carteira` é o nome do arquivo Python que contém o código.)
 
 ### **Acessar a Documentação Interativa**
 Após rodar a API, acesse a documentação interativa do **FastAPI**:
 - **Swagger UI:** [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - **Redoc:** [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
 
----
-## Considerações Finais
-Essa API permite a gestão de uma carteira fictícia de ações, possibilitando interação com preços atualizados da bolsa brasileira. Para uso em produção, recomenda-se persistir os dados em um banco de dados.
 
