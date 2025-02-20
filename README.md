@@ -27,7 +27,7 @@ Esta API permite a gestão de uma carteira fictícia de ações utilizando dados
 ---
 
 ### 2. **Adicionar Ação na Carteira**
-**Rota:** `POST /carteira/adicionar/{codigo_acao}`
+**Rota:** `POST /ativos/carteira/adicionar/{codigo_acao}`
 
 **Descrição:** Adiciona uma ação à carteira fictícia informando o **código** da ação e a **quantidade** desejada.
 
@@ -55,7 +55,7 @@ Esta API permite a gestão de uma carteira fictícia de ações utilizando dados
 ---
 
 ### 3. **Buscar uma Ação Específica na Carteira**
-**Rota:** `GET /carteira/{codigo_acao}`
+**Rota:** `GET /ativos/carteira/{codigo_acao}`
 
 **Descrição:** Busca informações de uma ação específica dentro da carteira.
 
@@ -76,7 +76,7 @@ Esta API permite a gestão de uma carteira fictícia de ações utilizando dados
 ---
 
 ### 4. **Visualizar Toda a Carteira**
-**Rota:** `GET /carteira`
+**Rota:** `GET /ativos/carteira`
 
 **Descrição:** Retorna todas as ações atualmente na carteira.
 
@@ -98,7 +98,7 @@ Esta API permite a gestão de uma carteira fictícia de ações utilizando dados
 ---
 
 ### 5. **Atualizar Preços das Ações na Carteira**
-**Rota:** `PUT /carteira/atualizar`
+**Rota:** `PUT /ativos/carteira/atualizar`
 
 **Descrição:** Atualiza os preços das ações da carteira com os valores mais recentes da API.
 
@@ -124,7 +124,7 @@ Esta API permite a gestão de uma carteira fictícia de ações utilizando dados
 ---
 
 ### 6. **Remover Ação da Carteira**
-**Rota:** `DELETE /carteira/remover/{codigo_acao}`
+**Rota:** `DELETE /ativos/carteira/remover/{codigo_acao}`
 
 **Descrição:** Remove uma ação da carteira fictícia.
 
